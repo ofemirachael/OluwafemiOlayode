@@ -1,0 +1,57 @@
+.herobackground{
+    background-image: url(../../images/heroimage.png);
+    height: 500px !important;
+    
+}
+.introduction {
+    width: 80%;
+    top: 26%;
+    left: 10%;
+    position: absolute;
+}
+
+.introname {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.iconcolor{
+    color: #F1CB84;
+}
+ .middle{
+    vertical-align: middle;
+ }
+ .catchphrase{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-weight: 600;
+ }
+
+ .catchdescription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 860px;
+    margin: 25px 0;
+ }
+
+ .resumebtn{
+    width: 146px;
+    height: 34px;
+    color:  #F1CB84;
+    border: 1px solid #F1CB84;
+    background: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+ 

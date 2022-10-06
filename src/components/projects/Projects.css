@@ -1,0 +1,54 @@
+.projectsection{
+    background: #2D3358;
+}
+.projectsdiv{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.titlep{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F5F5F5;
+   padding-top: 58px;
+}
+
+.pddiv{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+}
+
+.navarrow{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background: rgba(217, 217, 217, 0.5);
+    border: 1px solid #CCC7C7;
+    text-align: center;
+    line-height: 24px;
+    z-index: 100;
+    position: absolute;
+}
+
+.leftarrow{
+    left: 0;
+}
+
+.rightarrow{
+    right: 0;
+}
