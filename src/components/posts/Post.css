@@ -1,0 +1,29 @@
+.postcard{
+    border: 0.5px solid #F1CB84;
+    box-shadow: 6px 6px 25px 25px rgba(235, 213, 172, 0.25);
+    border-radius: 6px;
+    height: 331px;
+    width: 345px;
+    margin-top: 20px;
+}
+
+.postheadings{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 20px 30px;
+}
+.peakpost{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 30px;
+    color: #000000;
+}
+
+.externallink{
+   padding: 10px 30px; 
+}

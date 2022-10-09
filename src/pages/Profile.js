@@ -1,5 +1,7 @@
 import React from "react";
 import About from "../components/about/About";
+import Blogpost from "../components/blogpost/Blogpost";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import HeroSection from "../components/herosection/HeroSection";
 import Projects from "../components/projects/Projects";
@@ -13,6 +15,8 @@ const Profile = () => {
       <Socials />
       <About />
       <Projects />
+      <Blogpost />
+      <Footer />
     </>
   );
 };
