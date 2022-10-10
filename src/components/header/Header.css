@@ -34,3 +34,59 @@
     transition: 1s;
         left: 0;
 }
+
+.menuicon{
+    color: #fff;
+    background-color: #F1CB84;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+.headernav{
+    display: flex;
+}
+.show{
+    display: block;
+}
+.navsettings{
+    color: #fff;
+    padding: 0 20px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .menuicon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navl {
+        display: none;
+    }
+    .navitem{
+        padding: 10px 0;
+    }
+
+    .navlist{
+        margin-top: 30px;
+        background: #F1CB84;
+        padding: 30px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+    .justnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+    .btn-gen{
+        border: 1px solid #Fff;
+        color: #fff;
+    }
+}
+

@@ -1,0 +1,14 @@
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.textwhite{
+    color: #fff;
+}
+
+.iconmiddle{
+    vertical-align: middle;
+    
+}

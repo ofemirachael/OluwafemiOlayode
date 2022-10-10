@@ -12,14 +12,14 @@
     padding-bottom: 65px;
 }
 .writeupdiv{
-    max-width: 65%;
+    max-width: 60%;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
 }
 .imagediv{
-    max-width: 35%;
+    max-width: 40%;
     display: flex;
     justify-content: end;
     height: 100%;
@@ -64,4 +64,14 @@ margin: 18px -20px;
     transition: 1s;
     border: 1px solid #EBD5AC;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1160px) {
+    .writeupdiv{
+        max-width: 50%;
+    }
+
+    .imagediv {
+        max-width: 50%;
+    }
 }
