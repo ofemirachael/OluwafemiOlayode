@@ -7,7 +7,7 @@ const Blogpost = () => {
     <div className="aboutbg">
       <div className="blogdiv ">
         <div className="titlediv">
-          <p className="title">Blog Post</p>
+          <p className="title">Blog Posts</p>
           <div className="underline"></div>
         </div>
         <div className="bloglist">
