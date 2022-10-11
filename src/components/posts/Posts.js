@@ -7,7 +7,7 @@ const Posts = () => {
   return (
     <div>
       <div className="postcard">
-        <img src={blogpost} />
+        <img src={blogpost} className="postimage" />
 
         <p className="postheadings">Integrating Auth0 with ReactJs</p>
         <p className="peakpost">

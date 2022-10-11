@@ -5,16 +5,13 @@ import Posts from "../posts/Posts";
 const Blogpost = () => {
   return (
     <div className="aboutbg">
-      <div className="aboutdiv ">
+      <div className="blogdiv ">
         <div className="titlediv">
           <p className="title">Blog Post</p>
           <div className="underline"></div>
         </div>
         <div className="bloglist">
           {" "}
-          <Posts />
-          <Posts />
-          <Posts />
           <Posts />
           <Posts />
           <Posts />

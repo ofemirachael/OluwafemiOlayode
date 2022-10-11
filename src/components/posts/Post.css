@@ -3,9 +3,10 @@
     box-shadow: 6px 6px 25px 25px rgba(235, 213, 172, 0.25);
     border-radius: 6px;
     height: 331px;
-    width: 345px;
+    width: 330px;
     margin-top: 20px;
 }
+
 
 .postheadings{
     font-style: normal;
@@ -15,6 +16,7 @@
     color: #000000;
     padding: 20px 30px;
 }
+
 .peakpost{
     font-style: normal;
     font-weight: 400;
@@ -24,6 +26,11 @@
     color: #000000;
 }
 
+
 .externallink{
    padding: 10px 30px; 
+}
+
+.postimage{
+    width: 100%;
 }

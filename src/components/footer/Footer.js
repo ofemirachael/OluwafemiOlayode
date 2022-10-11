@@ -9,12 +9,12 @@ const Footer = () => {
         <div className="footerdiv textwhite">
           <div>
             <p className="">
-              Designed & built by Oluwafemi Rachael, Olayode{" "}
+              {" "}
+              © 2022 Designed & built by Oluwafemi Rachael, Olayode{" "}
               <span className="iconcolor iconmiddle">
                 {" "}
                 <FeatherIcon icon="heart" size={24} />
-              </span>{" "}
-              © 2022
+              </span>
             </p>
           </div>
           <div>
